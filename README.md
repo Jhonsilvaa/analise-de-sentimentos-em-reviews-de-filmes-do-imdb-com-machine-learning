@@ -18,7 +18,6 @@ Saber rapidamente se uma crítica é positiva ou negativa é importante para est
 | **Dataset** | 10.000 reviews do IMDb |
 | **Melhor modelo** | LightGBM |
 | **Melhor F1-score** | **0.85** |
-| **Abordagem NLP** | Pipeline completo com lematização por POS tag + TF-IDF |
 
 ---
 
@@ -42,7 +41,7 @@ Pipeline NLP completo aplicado a cada review:
 - **Lematização com POS tag**
 - **TF-IDF**
 
-### 4. Modelagem
+### 3. Modelagem
 - Comparação de classificadores: AdaBoost, XGBoost, LightGBM, MultinomialNB
 - Otimização de hiperparâmetros com **Busca Bayesiana (skopt)**
 
